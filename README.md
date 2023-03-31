@@ -9,11 +9,11 @@ and how they can be utilized.
 
 The following topics will be discussed:<br/>
 ✅ Understanding the benefits of reusing Bicep code <br/>
-✅ Exploring how re-usability works in Bicep through the use of modules (including a simple demo) <br/>
-✅ Introducing the different types of Bicep repositories (public and private modules) <br/>
+✅ Exploring how re-usability works in Bicep through the use of modules <br/>
+✅ Introducing the different types of Bicep module repositories <br/>
 ✅ Demonstrating how existing Bicep resources can be used as modules and deployed <br/>
-✅ Showcasing the EP1 main deployment graphic and deployment steps <br/>
+✅ Showcasing the EP1 final deployment architecture and scripted steps <br/>
 ✅ Incorporating parametrization for dev, test, and prod environments <br/>
-✅ Focusing on Bicep Public repositories and showcasing their usage with a graphic layout and demo <br/>
+✅ Focusing on Bicep Public repositories and showcasing their usage with an architectural diagram and demo <br/>
 
 As an attendee, you will gain valuable insights into maximizing the re-usability of Bicep and how it can positively impact their projects.
