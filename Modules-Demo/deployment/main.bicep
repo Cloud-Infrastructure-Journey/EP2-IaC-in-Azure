@@ -8,6 +8,12 @@ param stgName string
 @description('Azure region location for deployment.')
 param azureRegion string
 
+@description('SKU for ACR')
+param acrsku string
+
+@description('acr name')
+param acrname string
+
 
 module cloudStorageMain '../modules/storage-w-parametrization.bicep' = {
   name: 'cloudstoragemain'
@@ -29,5 +35,14 @@ module webAppMain '../modules/web-app-parameterized.bicep' = {
   name: 'webAppMain'
   params: {
     location: azureRegion
+  }
+}
+
+module acr '../modules/acr-deploy.bicep' = {
+  name: 'acr'
+  params: {
+    location: azureRegion
+    sku: acrsku
+    acrName: acrname
   }
 }
