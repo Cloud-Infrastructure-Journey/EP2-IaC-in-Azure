@@ -3,11 +3,16 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "stgName": {
-        "value": "ep1cloudj"
+        "value": "ep2cloudj"
       },
       "azureRegion": {
         "value": "eastus2"
       },
-      
+      "acrsku":{
+        "value": "Basic"
+      },
+      "acrName":{
+        "value": "ep2cloudj"
+      }
     }
   }
